@@ -1,0 +1,259 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header-section {
+    border-bottom: 1px solid #666;
+}
+
+.nav-logo {
+    height: 70px;
+}
+
+.navbar-nav a {
+    font-size: 17px;
+    color: #000;
+    font-weight: 500;
+}
+
+.news-room-head {
+    font-size: 50px;
+    color: #666;
+}
+
+.top-story-head {
+    font-size: 27px;
+    color: #666;
+    letter-spacing: 2px;
+    font-weight: 650;
+}
+.news-items-img-div{
+    overflow: hidden;
+}
+.meta-ai-img {
+   transition: 1s;
+}
+.news-items-img-div :hover  {
+  transform: scale(1.1,1.1);
+}
+.head-meta{
+     display: table; 
+     /*Note : display: table; This property set the width according to content width */
+    border-bottom: 2px solid blue;
+    padding-bottom: 7px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.meta-para-1{
+    font-size: 35px;
+}
+.meta-para-2{
+font-size: 15px;
+}
+.meta-para-3{
+font-size: 17px;
+color: #666;
+}
+/* News-items-right */
+.meta-para-11{
+    font-size: 25px;
+    word-spacing: 2px;
+}
+.meta-para-22{
+font-size: 15px;
+
+}
+.meta-para-33{
+font-size: 17px;
+color: #666;
+word-spacing: 2px;
+}
+.meta-head{
+    display: table; 
+    /*Note : display: table; This property set the width according to content width */
+   border-bottom: 2px solid blue;
+   padding-bottom: 7px;
+   font-size: 20px;
+   letter-spacing: 2px;
+}
+.insta-head{
+    display: table; 
+    /*Note : display: table; This property set the width according to content width */
+   border-bottom: 2px solid #d300c5;
+   padding-bottom: 7px;
+   font-size: 20px;
+   letter-spacing: 2px;
+}
+.whats-head{
+    display: table; 
+    /*Note : display: table; This property set the width according to content width */
+   border-bottom: 2px solid #25d366;
+   padding-bottom: 7px;
+   font-size: 20px;
+   letter-spacing: 2px;
+}
+/* celebration-section */
+.celebration-section{
+background-color: #f1f1f1;
+}
+
+.celebration-left-container{
+
+}
+.celebration-img{
+    width: 100%;
+}
+.meta-para-111{
+    font-size: 35px;
+    word-spacing: 2px;
+}
+/* recent-news-section */
+.recent-news-section{
+    padding-top: 100px;
+}
+.recent-newsbar-left{
+
+}
+.recent-news-head{
+font-size: 16px;
+}
+.recent-news-head-2{
+font-size: 24px;
+color: #666;
+padding-top: 40px;
+font-weight: 600;
+}
+.recent-ul{
+    padding: 0px;
+    margin: 0px;
+   
+}
+.recent-ul li{
+list-style: none;
+padding-top: 7px;
+}
+.recent-ul li a{
+text-decoration: none;
+color: #4a4747;
+font-size: 15px;
+transition: 0.5s;
+display: block;
+}
+.recent-ul li a:hover{
+    color: #000;
+    font-weight: bold;
+}
+/* link-section */
+.link-section{
+   padding: 50px 0px;
+background-color: #f1f1f1;
+}
+
+.link-a li{
+    list-style: none;
+}
+.link-a li a{
+text-decoration: none;
+color: rgb(109, 99, 99);
+font-size: 15px;
+}
+
+.link-a li a:hover{
+    color: rgb(86, 72, 72);
+}
+/* Footer section */
+.footer-section{
+   padding: 80px 0px;
+}
+.meta-footer-logo{
+    height: 70px;
+}
+.footer-para-1{
+    padding-top: 30px;
+    font-size: 13px;
+}
+.recent-news-head-22{
+font-size: 16px;
+font-weight: 600;
+}
+.recent-news-head-222{
+font-size: 16px;
+font-weight: 600;
+padding-top: 25px;
+}
+.recent-ul-1{
+    padding: 0px;
+    margin: 0px;
+   
+}
+.recent-ul-1 li{
+list-style: none;
+padding-top: 7px;
+}
+.recent-ul-1 li a{
+text-decoration: none;
+color: #4a4747;
+font-size: 13px;
+transition: 0.5s;
+display: block;
+}
+.recent-ul-1 li a:hover{
+    color: #000;
+    font-weight: bold;
+}
+.fa-brands{
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+@media (max-width:575.98px){
+    .news-room-head {
+        font-size: 35px;
+        color: #666;
+    }
+    
+    .top-story-head {
+        font-size: 20px;
+        color: #666;
+        letter-spacing: 2px;
+    }
+    .meta-para-1 {
+        font-size: 25px;
+    }
+
+
+    .fa-brands{
+        font-size: 20px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
